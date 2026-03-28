@@ -1,16 +1,60 @@
-# React + Vite
+# React Dashboard Starter 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![React](https://img.shields.io/badge/React-18.2.0-blue?logo=react&logoColor=white)](https://reactjs.org/)  
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Description
 
-## React Compiler
+**React Dashboard Starter** is a professional React project designed to teach and demonstrate **advanced frontend skills**.  
+It includes multi-page routing, reusable components, API integration, and a modern dashboard layout.  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project is **portfolio-ready** and can be extended for **fullstack applications** with a backend like **FastAPI** or **Django**.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Screenshot
+
+![Dashboard Screenshot](./screenshot.png)  
+
+> Replace `screenshot.png` with an actual screenshot of your running dashboard.
+
+---
+
+## Features
+
+- Multi-page routing using **React Router**  
+- **Dashboard layout** with sidebar and main content  
+- Reusable **Stat Cards** for metrics  
+- **Task Table** with dynamic data  
+- Fetch data from API endpoints  
+- **Loading & error states** for robust UI  
+
+---
+
+## Installation
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/drpetdone/react-dashboard-starter.git
+cd react-dashboard-starter
+
+2. Install dependencies
+npm install
+
+3. Start the development server
+npm run dev
+
+Open your browser at http://localhost:5173
+
+Technologies Used
+React 18
+React Router DOM
+JavaScript (ES6+)
+HTML & CSS (Tailwind optional later)
+Vite
+
+Author
+Peter T. Owoseni
